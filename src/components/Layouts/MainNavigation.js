@@ -1,4 +1,4 @@
-import{link} from 'react-router-dom';
+import{Link} from 'react-router-dom';
 function MainNavigation(){
 return(
 <header>
@@ -7,9 +7,9 @@ return(
 </div>
 <nav>
 <ul>
-    <li><link to="/">AllMeetups</link></li>
-    <li><link to="/new-meetup">AllMeetups</link></li>
-    <li><link to="/favorites">AllMeetups</link></li>
+    <li><Link to="/">AllMeetups</Link></li>
+    <li><Link to="/new-meetup">NewMeetup</Link></li>
+    <li><Link to="/favorites">Favorites</Link></li>
 </ul>
 </nav>
 </header>
